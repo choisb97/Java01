@@ -4,8 +4,8 @@ package j12_Exception; // UnChecked Exception throws
  < UnChecked Exception throws Test >
  - RunTimeException 하위 ~~ : UnChecked Exception 
  - java의 컴파일러가 Exception 처리 확인하지 않음
-   즉, 반드시 try ~ catch 구문 을 적용하지 않아도 됨.
-   그러나 필요시엔 throws 로 처리 가능.
+   즉, 반드시 try ~ catch 구문을 적용하지 않아도 됨.
+   그러나 필요시엔 throws로 처리 가능.
      
  - 주로 프로그래머의 실수로 발생 가능한 오류들
  - 상위의 메서드에서도 Exception 처리가 의무조항은 아님
