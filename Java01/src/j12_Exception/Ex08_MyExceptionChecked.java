@@ -7,7 +7,7 @@ import java.util.Scanner;
  < AgeException 만들기 1 -> Checked >
  - 나이의 값이 범위를 벗어나면 Exception 발생
  - 예외처리를 강제함 -> try ~ catch 처리하지 않으면 컴파일 오류 발생 
- - Exception 을 상속
+ - Exception을 상속
 */
 
 
