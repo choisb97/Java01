@@ -36,7 +36,7 @@ public class Ex05_IOthrows {
 	
 	// 2) 위임처리(떠넘기기)
 	// - throws IOException
-	//   IOException의 처리를 상위의 메서드(현제메서드를 call한 메서드)로 떠넘김
+	//   IOException의 처리를 상위의 메서드(현재메서드를 call한 메서드)로 떠넘김
 	// - throws하는 Exception은 모두 Checked 방식으로 처리해야 함
 	// - throws하는 Exception을 처리하는 구문에서는 Exception 적용범위가 더 넓어야 함
 	//   즉, throws Exception -> main의 catch (IOException e) : 오류
